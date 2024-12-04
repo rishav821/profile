@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .profile h1 {
+      margin: 10px 0;
+    }
+
+    .profile a {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .profile a:hover {
+      background-color: #0056b3;
+    }
+
+    .contact-info {
+      display: none;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .contact-info:target {
+      display: block;
+    }
+
+    .box {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fdfdfd;
+    }
+
+    .projects h2,
+    .skillset h2 {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .projects .images {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .projects .images img {
+      width: 100px;
+      height: 100px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .skillset ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skillset li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUfiySJr8Org5W-oE2v3_i7VqufglYtSdqw&s" alt="Profile Picture">
+      <h1>Rishav Shrestha</h1>
+      <a href="contact.html">Contact Me</a>
+    </div>
+
+    <div class="projects box">
+      <h2>Projects</h2>
+      <div class="images">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuURkmmbY6PPJ8LcoX01d8glmRWbEJvjU9Jw&s" alt="Project 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuURkmmbY6PPJ8LcoX01d8glmRWbEJvjU9Jw&s" alt="Project 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuURkmmbY6PPJ8LcoX01d8glmRWbEJvjU9Jw&s" alt="Project 3">
+      </div>
+    </div>
+
+    <div class="skillset box">
+      <h2>My Skillset</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
